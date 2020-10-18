@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title> Registration </title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+	<br><h1><u><marquee><font size="72" color="black">RECRUITER'S PAGE </font></marquee></u></h1>
+	<div class="container">
+		
+		<div class="row">
+
+		<div class="col-md-6 login-left">
+			<h2> Register here </h2>
+			<form action="spregistration.php" method="post" name="f1">
+				<div class="form-group">
+					<label> Name </label>
+					<input type="text" name="name" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label> Email Id </label>
+					<input type="text" name="email" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label> Phone No. </label>
+					<input type="text" name="phone" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label> Company </label>
+					<input type="text" name="phone" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label> Preferred Function </label>
+					<select name="specialization" class="form-control">
+					<option value=" ">Select</option>
+					<option value="fd">Front-End Developer</option>
+					<option value="bd">Back-End Developer</option>
+					<option value="fsd">Full Stack Developer</option>
+					<option value="sde">Software Development Engineer</option>
+					<option value="ast">Assistant System Engineer</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label> Preferred Location </label>
+					<select name="location" class="form-control">
+					<option value=" ">Select</option>
+					<option value="dl">Delhi</option>
+					<option value="kol">Kolkata</option>
+					<option value="pn">Pune</option>
+					<option value="hyd">Hyderabad</option>
+					<option value="bang">Banglore</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label>Area</label>
+					<br>
+					<input type="radio" id="fresher" name="area" value="fresher">
+ 					<label for="fresher">fresher</label><br>
+ 			 		<input type="radio" id="junior to mid" name="area" value="junior to mid">
+					<label for="junior to mid">junior to mid</label><br>
+					<input type="radio" id="mid to senior" name="area" value="mid to senior">
+				  	<label for="mid to senior">mid to senior</label>
+				 </div>
+				 <div class="form-group">
+				 	<label>Blue Collar Workforce</label>
+				 	<br>
+				 	<input type="radio" name="bcw" value="yes">Yes
+				 	<input type="radio" name="bcw" value="no">No
+				 </div>
+				<button type="submit" class="btn btn-primary"> Register </button>
+			</form>
+		</div>
+		</div>
+		<h2><a href="home.html" style="color:red;text-align:center;font-family:comic sans"><b>home</b></a></h2>
+		</div>
+	</div>
+
+</body>
+</html>
